@@ -1,15 +1,4 @@
-<style type="text/css">
-    .titles { 
-        color: #FF71C9;
-        font-style: italic; 
-    }
-    .descripcion {
-        font-size: 1rem;
-    }
-</style>
 <h1 class="titles"> Css con Sass </h1>
-[! TIP]
-Esta plantilla...
 
 <p class="descripcion">
     Esta plantilla esta hecha en base a css y  
