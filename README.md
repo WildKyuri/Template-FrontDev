@@ -1,27 +1,33 @@
+<style type="text/css">
+    .titles { 
+        color: #FF71C9;
+        font-style: italic; 
+    }
+    .descripcion {
+        font-size: 1rem;
+    }
+</style>
+<h1 class="titles"> Css con Sass </h1>
+[! TIP]
+Esta plantilla...
 
-Se aceptan sugerencias 
-
-Si hace falta algo mas dentro del gulpfile para optimazar el 
-flujo del trabajo, estoy abierto a las posibilidades; incluso si faltan
-dependencias de desarrollo, etc
+<p class="descripcion">
+    Esta plantilla esta hecha en base a css y  
+</p>
 
 
------------------------------------------------------------------------
-En consola para iniciar el package.json
------------------------------------------------------------------------
     npm init  
 Las 3 cosas a modificar
 -----------------------------------------------------------------------
     description: Lo que quieras ponerle
     keywords: SASS, GULP (esto es opcional)
     author: name
------------------------------------------------------------------------
-El resto se cuenta solo al ver el gulpfile.js
+----------------------------------------------------------------------
 
     npm install
 
------------------------------------------------------------------------
-   Dependencias de Desarrollo
+
+# Dependencias de Desarrollo
 -----------------------------------------------------------------------
     npm i sass --save-dev
     npm i -D gulp
