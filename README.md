@@ -1,8 +1,14 @@
 # <font color="#FFD7F0">Css con *Sass y Gulp*</font>
 
-Esta plantilla esta con el proposito de poder trabajar de manera un poco *más rapida* con Sass y Gulp  
+Esta plantilla esta con el proposito de poder trabajar de manera un poco ***más rapida*** con Sass y Gulp  
 
-:bulb: **Tip:** esta plantilla ya es funcional con ambos archivos *.json* que ya vienen incluidos 
+:memo: **Note:** esta plantilla ya es funcional con ambos archivos *.json* que ya vienen incluidos 
+
+<font color="#FFD7F0" size="4px">
+<p>
+    :Warning: Instalar dependencias manualmente
+</p>
+</font>
 
 npm init  
 
@@ -14,7 +20,8 @@ author: name
     npm install
 
 
-# Dependencias de Desarrollo
+## <font color="#FFD7F0">Dependencias de Desarrollo*</font>
+### <font color="#FFD7F0">Css</font>
 npm i sass --save-dev
 
 npm i -D gulp
@@ -27,7 +34,7 @@ npm i --save-dev gulp-sourcempas
 
 npm i --save-dev cssnano autoprefixer postcss gulp-postcss
 
-## Js 
+### <font color="#FFD7F0">Js</font>
 
 npm i --save-dev terser
 
@@ -37,7 +44,7 @@ npm i --save-dev gulp-rename
 
 npm i --save-dev gulp-concat
 
-## Imagenes
+### <font color="#FFD7F0">Img</font>
 npm i --save-dev gulp-clean
 
 npm i --save-dev gulp-cache
