@@ -4,7 +4,7 @@ Esta plantilla esta con el proposito de poder trabajar de manera un poco ***más
 
 :memo: **Note:** esta plantilla ya es funcional con ambos archivos *.json* que ya vienen incluidos 
 
-![sass](https://github.com/WildKyuri/Planitlla-Gulp-Sass/assets/86691008/1ff64b79-9ed6-4919-a9b0-37ea95044921)
+<!-- imagenes de los logos -->
 
 
 ## :warning: Instalar dependencias manualmente
