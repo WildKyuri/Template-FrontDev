@@ -1,7 +1,7 @@
 {
-  "name": "bienesraices",
+  "name": "plantilla",
   "version": "1.0.0",
-  "description": "Curso Desarrollo Web",
+  "description": "Plantilla Scss y Gulp",
   "main": "gulpfile.js",
   "scripts": {
     "dev": "gulp"

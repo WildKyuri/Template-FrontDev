@@ -4,11 +4,8 @@ Esta plantilla esta con el proposito de poder trabajar de manera un poco ***más
 
 :memo: **Note:** esta plantilla ya es funcional con ambos archivos *.json* que ya vienen incluidos 
 
-<font color="#FFD7F0" size="4px">
-<p>
-    :warning: Instalar dependencias manualmente
-</p>
-</font>
+
+## :warning: Instalar dependencias manualmente
 
 Para iniciar los siguientes archivos:
 - *Package-lock.json*
@@ -16,23 +13,18 @@ Para iniciar los siguientes archivos:
 
 En una terminal escribir
 
-
  ```
 npm init
 
  ```
+Las 3 cosas 
 
-
-Las 3 cosas a modificar
-description: Lo que quieras ponerle
-keywords: SASS, GULP (esto es opcional)
-author: name
 
     npm install
 
 
-## <font color="#FFD7F0">Dependencias de Desarrollo*</font>
-### <font color="#FFD7F0">Css</font>
+### <font color="#FFD7F0">Dependencias de Desarrollo*</font>
+#### <font color="#FFD7F0">Css</font>
 npm i sass --save-dev
 
 npm i -D gulp
@@ -45,7 +37,7 @@ npm i --save-dev gulp-sourcempas
 
 npm i --save-dev cssnano autoprefixer postcss gulp-postcss
 
-### <font color="#FFD7F0">Js</font>
+#### <font color="#FFD7F0">Js</font>
 
 npm i --save-dev terser
 
@@ -55,7 +47,7 @@ npm i --save-dev gulp-rename
 
 npm i --save-dev gulp-concat
 
-### <font color="#FFD7F0">Img</font>
+#### <font color="#FFD7F0">Img</font>
 npm i --save-dev gulp-clean
 
 npm i --save-dev gulp-cache
