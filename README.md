@@ -17,7 +17,7 @@ En una terminal escribir
 
     npm init
 
-Las 3 que tienes que tocar al momento que empiece el profe y pregunte:
+Las 3 que tienes que tocar al momento que empiece el proceso y pregunte:
 - description: Lo que quieras ponerle
 - keywords: SASS, GULP (esto es opcional)
 - author: name
@@ -35,7 +35,9 @@ Modifica dicha parte, reemplazandola por lo siguiente:
     ]
 
 ### <font color="#FFD7F0">Dependencias de Desarrollo*</font>
-Como ultimo paso para instalar las dependencias de desarrollo, en una terminal dentro del proyecto/plantilla, meter los siguientes comandos: 
+Como ultimo paso para instalar las dependencias de desarrollo,
+en una terminal dentro del proyecto/plantilla, 
+escribir las siguientes lineas de comando en la terminal: 
 
 #### <font color="#FFD7F0">Css</font>
     npm i sass --save-dev
