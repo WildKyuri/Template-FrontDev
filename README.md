@@ -6,11 +6,22 @@ Esta plantilla esta con el proposito de poder trabajar de manera un poco ***más
 
 <font color="#FFD7F0" size="4px">
 <p>
-    :Warning: Instalar dependencias manualmente
+    :warning: Instalar dependencias manualmente
 </p>
 </font>
 
-npm init  
+Para iniciar los siguientes archivos:
+- *Package-lock.json*
+- *Package.json*
+
+En una terminal escribir
+
+
+ ```
+npm init
+
+ ```
+
 
 Las 3 cosas a modificar
 description: Lo que quieras ponerle
