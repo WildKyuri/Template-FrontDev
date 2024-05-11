@@ -15,12 +15,26 @@ En una terminal escribir
 
     npm init
 
-Las 3 cosas a modificar son:
+Las 3 que tienes que tocar al momento que empiece el profe y pregunte:
 - description: Lo que quieras ponerle
 - keywords: SASS, GULP (esto es opcional)
 - author: name
 
+Una vez creado el package.json, abre el archivo y busca la opcion de **scripts** y vendra lo siguiente
+
+    "Scripts": [
+         "test": "echo \"Error: no test specified\" && exit 1"
+    ]
+
+Modifica dicha parte, reemplazandola por lo siguiente:
+
+    "Scripts": [
+         "dev": "gulp"
+    ]
+
 ### <font color="#FFD7F0">Dependencias de Desarrollo*</font>
+Como ultimo paso para instalar las dependencias de desarrollo, en una terminal dentro del proyecto/plantilla, meter los siguientes comandos: 
+
 #### <font color="#FFD7F0">Css</font>
     npm i sass --save-dev
     npm i -D gulp
