@@ -1,4 +1,4 @@
-# <font color="#FFD7F0">Css con *Sass y Gulp*</font>
+# Css con *Sass y Gulp*
 
 Esta plantilla esta con el proposito de poder trabajar de manera un poco ***más rapida*** con Sass y Gulp  
 
@@ -9,15 +9,17 @@ Esta plantilla esta con el proposito de poder trabajar de manera un poco ***más
 
 ## :warning: Instalar dependencias manualmente
 
-Para iniciar los siguientes archivos:
-- *Package-lock.json*
-- *Package.json*
 
-En una terminal escribir
+### Requisitos
+- node.js
+- npm
+
+Ejecuta los siguientes comandos
 
     npm init
 
-Las 3 que tienes que tocar al momento que empiece el proceso y pregunte:
+Las 3 opciones a modificar a la necesidad indivualmente:
+
 - description: Lo que quieras ponerle
 - keywords: SASS, GULP (esto es opcional)
 - author: name
@@ -34,12 +36,12 @@ Modifica dicha parte, reemplazandola por lo siguiente:
          "dev": "gulp"
     ]
 
-### <font color="#FFD7F0">Dependencias de Desarrollo*</font>
+### Dependencias de Desarrollo
 Como ultimo paso para instalar las dependencias de desarrollo,
 en una terminal dentro del proyecto/plantilla, 
-escribir las siguientes lineas de comando en la terminal: 
+correr los siguientes comandos 
 
-#### <font color="#FFD7F0">Css</font>
+#### Css
     npm i sass --save-dev
     npm i -D gulp
     npm i --save-dev gulp-sass
@@ -47,13 +49,13 @@ escribir las siguientes lineas de comando en la terminal:
     npm i --save-dev gulp-sourcempas
     npm i --save-dev cssnano autoprefixer postcss gulp-postcss
 
-#### <font color="#FFD7F0">Js</font>
+#### Js
     npm i --save-dev terser
     npm i --save-dev gulp-terser-js
     npm i --save-dev gulp-rename
     npm i --save-dev gulp-concat
 
-#### <font color="#FFD7F0">Img</font>
+#### Img
     npm i --save-dev gulp-clean
     npm i --save-dev gulp-cache
     npm i --save-dev gulp-imagemin@7.1.0
