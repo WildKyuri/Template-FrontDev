@@ -1,0 +1,27 @@
+{
+    "name": "plantilla-v2",
+    "version": "1.0.0",
+    "description": "Version dos de la plantilla",
+    "main": "gulpfile.js",
+    "type": "module",
+    "scripts": {
+        "dev": "gulp"
+    },
+    "keywords": [
+        "sass",
+        "gulp",
+        "npm"
+    ],
+    "author": "Kyuri",
+    "license": "ISC",
+    "devDependencies": {
+        "glob": "^10.4.1",
+        "gulp": "^5.0.0",
+        "gulp-concat": "^2.6.1",
+        "gulp-rename": "^2.0.0",
+        "gulp-sass": "^5.1.0",
+        "gulp-terser": "^2.1.0",
+        "sass": "^1.77.2",
+        "sharp": "^0.33.4"
+    }
+}
