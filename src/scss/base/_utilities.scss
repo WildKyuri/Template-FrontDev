@@ -10,9 +10,16 @@
   grid-template-columns: repeat($columnas, 1fr);
 }
 
-@mixin seccion($top, $bottom) {
-  margin-top: $top;
-  margin-bottom: $bottom;
+@mixin padding($top, $bottom: null) {
+  @if $bottom ==null {
+    padding-top: $top;
+    padding-bottom: $top;
+  }
+
+  @else {
+    padding-top: $top;
+    padding-bottom: $bottom;
+  }
 }
 
 @mixin padding($top, $bottom) {
