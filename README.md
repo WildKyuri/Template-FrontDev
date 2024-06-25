@@ -1,112 +1,67 @@
 # Working with Sass
 
-<!-- It doesn't matter if you're new in  -->
+## What about this :grey_question:
 
-<!-- Esta plantilla esta con el proposito de poder trabajar de manera un poco **_más rapida_** con Sass y Gulp -->
-<!---->
-<!-- :memo: **Note:** esta plantilla ya es funcional con ambos archivos _.json_ que ya vienen incluidos -->
-<!---->
-<!-- ## :speech_balloon:Actualizaciones -->
-<!---->
-<!-- - Anteriormente se estaba usando la version vieja de sass en que se basaba en ruby, -->
-<!--   ahora sass esta actualizado para usarse en base a DartSass -->
-<!---->
-<!-- - Se esta usando modern normalize -->
-<!---->
-<!--   - https://github.com/sindresorhus/modern-normalize/tree/main -->
-<!---->
-<!--     <br> -->
-<!---->
-<!-- - Dependencias de desarrollo que no se utilizaban -->
-<!---->
-<!-- - Ahora se ocupa DartSass, algunas dependencias anteriores ya no son necesarias -->
-<!---->
-<!-- - Se agrego el renderizado de las imagenes a .avif, anteriormente solo era .webp -->
-<!---->
+This template will help you working on little proyects with Sass, js and the target of having a good
+performance in your web page. It works with Gulp having a gulpfile that
+performs multiple task:
+
+### Sass
+
+Compiles all Sass files into a single css file, at the same time with the minified of the css and the .map
+
+```
+templeate
+├──📂build/
+|    └──📂css/
+|       └──🔰app.css
+|       └──🔰app.css.map
+```
+
+### Js
+
+All your js files into a single one app.js and the minified
+
+```
+templeate
+├──📂build/
+|    └──📂css/
+|       └──🔰app.js
+|       └──🔰example-one.js
+|       └──🔰example-two.js
+```
+
+### Images
+
+Everysingle image that you have in your `./src/img`, will be made into three image formats
+
+```
+templeate
+├──📂build/
+|    └──📂img/
+|       └──🔰image1.jpg
+|       └──🔰image1.webp
+|       └──🔰image1.avif
+```
+
 <!-- imagenes de los logos -->
-<!---->
-<!-- ## :notebook_with_decorative_cover:Ejecutar tareas gulpfile.js -->
-<!---->
-<!-- Asegura de cambiar en el archivo package.json la parte de escripts y añadir las pripiedades faltantes -->
-<!---->
-<!-- ### Propiedades faltantes -->
-<!---->
-<!-- Agregar manualmente las siguientes propiedades debajo de "Description" -->
-<!---->
-<!-- ``` -->
-<!-- "main": "gulpfile.json", -->
-<!-- "type": "module", -->
-<!---->
-<!-- ``` -->
-<!---->
-<!-- #### Scripts -->
-<!---->
-<!-- ##### Actual -->
-<!---->
-<!-- ``` -->
-<!-- "Scripts": [ -->
-<!--     "test": "echo \"Error: no test specified\" && exit 1" -->
-<!--     ] -->
-<!-- ``` -->
-<!---->
-<!-- ##### Modificación -->
-<!---->
-<!-- ``` -->
-<!-- "Scripts": [ -->
-<!--     "dev": "gulp" -->
-<!--     ] -->
-<!---->
-<!-- ``` -->
-<!---->
-<!-- Para poder empezar a usar la plantilla, necesitamos la carpeta _node_modules_ -->
-<!---->
-<!-- ``` -->
-<!-- npm install -->
-<!-- ``` -->
-<!---->
-<!-- ## :warning:Instalar dependencias manualmente -->
-<!---->
-<!-- ### Requisitos -->
-<!---->
-<!-- - node.js -->
-<!-- - npm -->
-<!---->
-<!-- Ejecuta los siguientes comandos -->
-<!---->
-<!-- ``` -->
-<!-- npm init -->
-<!-- ``` -->
-<!---->
-<!-- Las 3 opciones a modificar a la necesidad indivualmente: -->
-<!---->
-<!-- - description: Lo que quieras ponerle -->
-<!-- - keywords: SASS, GULP (esto es opcional) -->
-<!-- - author: name -->
-<!---->
-<!-- ### Dependencias de Desarrollo -->
-<!---->
-<!-- Como ultimo paso, descargar/instalar las dependencias -->
-<!-- de desarrollo, en una terminal dentro del proyecto/plantilla, -->
-<!-- correr los siguientes comandos -->
-<!---->
-<!-- #### Css -->
-<!---->
-<!-- ``` -->
-<!-- npm i --save-dev sass -->
-<!-- npm i --save-dev gulp -->
-<!-- npm i --save-dev gulp-sass -->
-<!-- ``` -->
-<!---->
-<!-- #### Js -->
-<!---->
-<!-- ``` -->
-<!-- npm i --save-dev gulp-terser -->
-<!-- npm i --save-dev gulp-rename -->
-<!-- npm i --save-dev gulp-concat -->
-<!-- ``` -->
-<!---->
-<!-- #### Img -->
-<!---->
-<!-- ``` -->
-<!-- npm i --save-dev sharp -->
-<!-- ``` -->
+
+## System Requirements
+
+You must have in your Dev Enviroment the following Requirements
+
+- node.js
+
+## Getting Started
+
+Install all the dependencies:
+
+```
+npm install
+```
+
+Run the gulp task:
+
+```
+npm run dev
+```
