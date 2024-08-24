@@ -1,7 +1,9 @@
-document.addEventListener('DOMContentLoaded', function() {
-    holaMundo()
-})
+document.addEventListener("DOMContentLoaded", function () {
+  holaMundo();
+});
 
 function holaMundo() {
-    console.log('Hola Mundo')
+  console.log("Hola Mundo");
 }
+
+function hoal(params) {}

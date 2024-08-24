@@ -6,6 +6,11 @@ This template will help you working on little proyects with Sass, js and the tar
 performance in your web page. It works with Gulp having a gulpfile that
 performs multiple task:
 
+We have a folder with two gulpfiles
+
+- With Browser-sync
+- Without Browser-sync
+
 ### Sass
 
 Compiles all Sass files into a single css file, at the same time with the minified of the css and the .map

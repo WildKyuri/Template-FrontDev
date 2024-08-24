@@ -26,23 +26,7 @@ const paths = {
   scss: "src/scss/**/*.scss",
   js: "src/js/**/*.js",
   img: "src/img/**/*",
-  html: "*.html",
 };
-
-export function serve(done) {
-  bs.init({
-    server: {
-      baseDir: "./",
-    },
-    open: false,
-    injectChanges: true,
-  });
-  done();
-}
-export function reload(done) {
-  bs.reload();
-  done();
-}
 
 export function css(done) {
   src(paths.scss, { sourcemaps: true })
@@ -56,8 +40,7 @@ export function css(done) {
         "build/css", // -----> Destino
         { sourcemaps: "." },
       ),
-    ) // -----> Mapeo de los estilos .sass
-    .pipe(bs.stream());
+    ); // -----> Mapeo de los estilos .sass
   done();
 }
 export function js(done) {
@@ -65,9 +48,8 @@ export function js(done) {
     .pipe(concat("bundle.js"))
     .pipe(terser()) // ----> Minificación .js
     .pipe(rename({ suffix: ".min" })) //----> referencia a la minificación
-    .pipe(dest("build/js")) // ----> Destino
-    .pipe(bs.stream()),
-    done();
+    .pipe(dest("build/js")); // ----> Destino
+  done();
 }
 
 // Images with Node.JS
@@ -109,9 +91,8 @@ function procesarImagenes(file, outputSubDir) {
 export function dev() {
   watch(paths.scss, css);
   watch(paths.js, js);
-  watch(paths.html, reload);
 }
 
 // export default series(css, js, img, dev);
-export default series(css, js, parallel(serve, dev));
+export default series(css, js, dev);
 export const buildImg = series(img);
